@@ -1,0 +1,24 @@
+.About_in{
+    margin-bottom: 30px;
+  }
+  .About_img{
+    width: 40%;
+  }
+  .About_txt{
+    width: 60%;
+    padding-left: 25px;
+  }
+  .About_bot p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .About_tit{
+    margin-bottom: 20px;
+    color:rgb(232, 130, 255);
+    margin-top: 20px;
+  }
+  .About_txt b{
+    display: block;
+    margin-bottom: 8px;
+  }
