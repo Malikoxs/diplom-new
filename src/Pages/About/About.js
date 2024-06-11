@@ -1,6 +1,6 @@
 import Title from '../../Components/Title/Title';
 import './About.css';
-import aboutImg from '../../img/about.jpg'
+import video from '../../img/video.mp4'
 
 function About() {
   return (
@@ -8,8 +8,10 @@ function About() {
       <div className="container">
         <Title>About Us</Title>
         <div className="About_in flex">
-          <div className="About_img img_wrap">
-            <img src={aboutImg} alt="" />
+          <div className="About_video">
+          <video width="100%"controls autoPlay muted>
+      <source src={video} type="video/mp4"/>
+    </video>
           </div>
           <div className="About_txt">
             <h3 className='About_tit'>We are a large and friendly Violet family! </h3>
@@ -34,9 +36,7 @@ Gradually, we gained clients and grew in popularity. Along with it, the range of
               <h3 className='About_tit'>We continue to grow and develop! </h3>
           </div>
         </div>
-        <div className="About_bot">
-          <p></p>
-           </div>
+        
       </div>
     </section>
   );

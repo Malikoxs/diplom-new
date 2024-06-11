@@ -1,16 +1,19 @@
 .Home_buttons{
     padding-top: 20px;
     justify-content: center;
-  }
+      }
   .Home_buttons .Btn{
     margin: 0 10px;
+  }
+  .Home_buttons .Btn:hover{
+    background-color: white;
   }
   
   .Home_sec{
     padding: 50px 0 300px;
     background: url(../../img/home.jpg) center no-repeat;
     background-size: cover;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     color: #ffffff;
   }
   .Home_sec__black{

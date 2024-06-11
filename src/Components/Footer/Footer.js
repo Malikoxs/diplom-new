@@ -3,6 +3,7 @@ import Menu from "../Menu/Menu";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 
+
 function Footer() {
   return (
     <footer>
@@ -20,13 +21,15 @@ function Footer() {
             </div>
           </div>
           <div className="Foot_links-wrap">
-            <p className="Foot_tit">Links</p>
+            <p className="Foot_tit">Follow us</p>
             <div className="Foot_links flex">
               <Link className="Foot_link Foot_link__inst" />
               <Link className="Foot_link Foot_link__fb" />
               <Link className="Foot_link Foot_link__tw" />
             </div>
           </div>
+
+        
           
         </div>
         <div className="Foot_bot">

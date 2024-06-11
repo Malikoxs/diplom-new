@@ -4,6 +4,7 @@
   font-weight: 600;
   transition: 0.3s;
   border-bottom: 2px solid transparent;
+  color:rgb(161, 4, 197) ;
 }
 .Menu li:hover{
   border-color: rgb(232, 130, 255);

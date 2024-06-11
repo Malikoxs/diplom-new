@@ -20,7 +20,7 @@ export const AppContext = createContext({
   cart: {},
   setCart: () => { },
   user: null,
-});
+}); 
 
 function App() {
   const [categories, setCategories] = useState([]);

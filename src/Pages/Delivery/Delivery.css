@@ -1,0 +1,25 @@
+.Delivery_in{
+    margin-bottom: 30px;
+  }
+  .Delivery_video{
+    width: 40%;
+  }
+  .Delivery_txt{
+    width: 60%;
+    padding-left: 25px;
+  }
+  .Delivery_bot p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .Delivery_tit{
+    margin-bottom: 20px;
+    color:rgb(232, 130, 255);
+    margin-top: 20px;
+  }
+  .Delivery_txt b{
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 10px;
+  }

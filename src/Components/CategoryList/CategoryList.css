@@ -13,7 +13,10 @@
 .dropdownBtn{
     padding-bottom: 5px;
     color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .dropdownContent{
     color: rgb(232, 130, 255);
+
 }

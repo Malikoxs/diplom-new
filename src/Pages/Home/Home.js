@@ -19,8 +19,9 @@ function Home() {
           <HomeSec>Macaron</HomeSec>
           <HomeTxt>The most delicate cake-cookies.</HomeTxt>
           <div className="Home_buttons flex">
-            <Button path="/cart">View the catalog</Button>
-            <Button>Buy</Button>
+          <Link to="/https://kulikov.com/katalog/pirozhnye/#b3019">
+            <Button path="/Delivery">Order</Button>
+            </Link>
           </div>
         </div>
       </div>
@@ -29,8 +30,9 @@ function Home() {
           <HomeSec>Cakes</HomeSec>
           <HomeTxt>Sweet dessert pie.</HomeTxt>
           <div className="Home_buttons flex">
-            <Button path="/cart">View the catalog</Button>
-            <Button>Buy</Button>
+          <Link to="https://kulikov.com/katalog/torty/">
+            <Button path="/Delivery">Order</Button>
+            </Link>
           </div>
         </div>
       </div>
@@ -39,8 +41,8 @@ function Home() {
           <HomeSec>Cupcakes</HomeSec>
           <HomeTxt>Super cute daisy cupcakes.</HomeTxt>
           <div className="Home_buttons flex">
-            <Button path="/cart">View the catalog</Button>
-            <Button>Buy</Button>
+            <Button path="/Delivery">Order</Button>
+            
           </div>
         </div>
       </div>

@@ -30,16 +30,21 @@ export default function CartList() {
         </Link>
         <Link to={"/products/" + product.slug}>{product.name}</Link>
 
-        <div className="inputs">
         <input
+          className="input-in-CartList"
           type="number"
-          value={cart[product.name]}
+          value={cart[product.id]}
           min={1}
-          onChange={(event) => onQuantityChange(product, +event.target.value)} />
-        <span>${(cart[product.id] * product.price).toFixed(2)}</span>
-        <i className="fa-solid fa-xmark" onClick={() => onItemRemove(product)} />
+          onChange={(event) => onQuantityChange(product, +event.target.value)}
+        />
+        <span className="price-in-product">
+          {cart[product.id] * product.price} $
+        </span>
+        <button className="button" onClick={() => onItemRemove(product)}>
+          <span className="Remove">Remove</span>
+        </button>
           </div>
-      </div>
+     
     ));
 
   return (

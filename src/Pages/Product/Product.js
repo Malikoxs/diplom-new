@@ -15,11 +15,11 @@ export default function Product() {
   }
 
   return (
-    <div className="Product">
-      <div>
+    <div className="Product flex">
+      <div className="Product_img">
         <img src={product.picture} alt={product.name} />
       </div>
-      <div>
+      <div className="Product_txt">
         <h1>{product.name}</h1>
         <p><strong>Price:</strong> {product.price}$</p>
         <p><strong>Description: </strong>{product.description}</p>
