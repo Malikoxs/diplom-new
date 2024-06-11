@@ -41,7 +41,9 @@ function Contacts() {
           </div>
           <div className="Contacts_block">
             <div className="Contacts_tit">WORKING HOURS HELP SERVICE</div>
-            <p className="Contacts_block-tit">Bishkek: Пн.-Вс. 07:00 - 23:00 Almata: Пн.-Вс. 08:00 - 22:00 Novosibirsk: Пн.-Вс. 09:00 - 23:00 </p>
+            <p className="Contacts_block-tit">Bishkek: Пн.-Вс. 07:00 - 23:00 
+              <b>Almata: Пн.-Вс. 08:00 - 22:00</b>
+               Novosibirsk: Пн.-Вс. 09:00 - 23:00 </p>
           </div>
         </div>
         <form onSubmit={handleSubmit}>
@@ -49,9 +51,9 @@ function Contacts() {
           <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required />
           <label htmlFor="email">Email:</label>
           <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required />
-          <label htmlFor="message">Сообщение:</label>
+          <label htmlFor="message">Send message:</label>
           <textarea id="message" name="message" value={formData.message} onChange={handleChange} rows="4" required />
-          <button type="submit">Отправить</button>
+          <button type="submit">Send</button>
         </form>
         <div className="Contacts_map">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d46793.32304975421!2d74.61601280000001!3d42.860544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2skg!4v1714988710851!5m2!1sru!2skg" title="Контактная информация" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

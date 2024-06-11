@@ -9,8 +9,8 @@ function Delivery() {
         <Title>Delivery</Title>
         <div className="Delivery_in flex">
           <div className="Delivery_video">
-          <video width="100%"controls autoPlay muted>
-      <source src={video} type="vvideo/mp4"/>
+          <video width="100%" controls autoPlay muted>
+      <source src={video} type="video/mp4"/>
     </video>
 
           </div>
