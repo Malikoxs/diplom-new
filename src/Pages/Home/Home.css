@@ -42,6 +42,8 @@
   .Home_slide{
     display: block;
     position: relative;
+    width: 500px;
+    height: 300px;
   }
   .Home_slide::before{
     content: '';
