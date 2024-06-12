@@ -41,6 +41,7 @@
   border-radius: 8px;
   margin-left: 5px;
   transition: 0.2s;
+  text-align: center;
 }
 .button:hover {
   background-color: rgb(238, 193, 249);
@@ -48,6 +49,8 @@
 .Remove {
   font-family: "blue", sans-serif;
   font-size: 20px;
+  text-align: center;
+  
 }
 .input-in-CartList{
   width: 50px;

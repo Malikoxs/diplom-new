@@ -1,4 +1,13 @@
 .Product_img{
-    width: 30%;
+    width: 20%;
     margin-left: 20px;
+}
+.Product_txt{
+    width: 70%;
+}
+.Product_txt{
+    margin-right: 20px;
+}
+.name{
+    color:rgb(232, 130, 255);
 }
